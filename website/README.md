@@ -1,13 +1,13 @@
 # About & Contact Pages – Project Documentation
 
-## 📌 Project Overview
+## Project Overview
 
 This project includes the **About Us** and **Contact Us** pages of a website designed using **HTML and CSS**.
 The goal was to create **modern, clean, and user-friendly pages** with consistent design and good readability on a dark background.
 
 ---
 
-## 🎨 Design Theme
+## Design Theme
 
 * **Primary Color:** Dark Red (`#e53935`)
 * **Secondary Color:** Cream (`#fff1e6`)
@@ -17,7 +17,7 @@ The goal was to create **modern, clean, and user-friendly pages** with consisten
 
 ---
 
-## 📄 About Us Page
+## About Us Page
 
 ### Purpose
 
@@ -47,7 +47,7 @@ The About Us page provides information about the organization, its mission, visi
 
 ---
 
-## 📄 Contact Us Page
+## Contact Us Page
 
 ### Purpose
 
@@ -72,7 +72,7 @@ The Contact Us page allows users to easily reach out by filling out a form or vi
 
 ---
 
-## 🧠 Key Concepts Used
+## Key Concepts Used
 
 * HTML semantic structure
 * CSS Flexbox for layout alignment
@@ -82,7 +82,7 @@ The Contact Us page allows users to easily reach out by filling out a form or vi
 
 ---
 
-## 🚀 Conclusion
+## Conclusion
 
 Both About and Contact pages are designed to be:
 
