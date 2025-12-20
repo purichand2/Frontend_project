@@ -1,4 +1,4 @@
-📌 Project Title
+Project Title
 
 Signup Form with Validation (HTML, CSS, JavaScript)
 
