@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Multi Step Form</title>
+  <link rel="stylesheet" href="styleregform.css">
+</head>
+<body>
+
+
+<!-- STEP CONTROLLERS -->
+<input type="radio" name="step" id="step1" checked>
+<input type="radio" name="step" id="step2">
+<input type="radio" name="step" id="step3">
+<input type="radio" name="step" id="step4">
+<input type="radio" name="step" id="step5">
+
+<div class="wrapper">
+
+  <!-- STEP PILLS -->
+  <div class="steps">
+    <label for="step1">Personal</label>
+    <label for="step2">Address</label>
+    <label for="step3">Work</label>
+    <label for="step4">Docs</label>
+    <label for="step5">Preview</label>
+  </div>
+
+  <!-- FORM CARD -->
+  <div class="card">
+
+   <section class="form step-1">
+    <h2>Personal Details</h2>
+    <p>Tell us about yourself</p>
+
+    <div class="row">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+    </div>
+
+    <div class="row">
+        <input type="text" placeholder="Phone Number">
+        <input type="email" placeholder="Email">
+    </div>
+
+    <div class="row">
+        <input type="date">
+           <input type="text" placeholder="Gender">
+
+    </div>
+
+    <h3>Guardian Details</h3>
+
+    <div class="row">
+        <input type="text" placeholder="Guardian Name">
+        <input type="text" placeholder="Relation">
+    </div>
+
+    <input type="text" placeholder="Guardian Phone">
+
+    <label for="step2" class="btn">Next</label>
+</section>
+
+
+    <section class="form step-2">
+    <h2>Address Details</h2>
+    <p>Provide your permanent and temporary address</p>
+
+    <h3>Permanent Address</h3>
+    <input type="text" placeholder="Address Line">
+
+    <div class="row">
+        <input type="text" placeholder="City">
+        <input type="text" placeholder="Pin Code">
+    </div>
+
+    <div class="row">
+        <input type="text" placeholder="State">
+        <input type="text" placeholder="Country">
+    </div>
+
+    <h3>Temporary Address</h3>
+    <input type="text" placeholder="Address Line">
+
+    <div class="row">
+        <input type="text" placeholder="City">
+        <input type="text" placeholder="Pin Code">
+    </div>
+
+    <div class="row">
+        <input type="text" placeholder="State">
+        <input type="text" placeholder="Country">
+    </div>
+
+    <div class="buttons">
+        <label for="step1" class="btn prev">Previous</label>
+        <label for="step3" class="btn">Next</label>
+    </div>
+</section>
+
+
+   <section class="form step-3">
+    <h2>Education Details</h2>
+    <p>Enter your academic background</p>
+
+    <h3>SSC (10th Class)</h3>
+    <input type="text" placeholder="School Name">
+
+    <div class="row">
+        <input type="text" placeholder="Passing Year">
+        <input type="text" placeholder="Percentage">
+    </div>
+
+    <h3>HSC (12th Class)</h3>
+    <input type="text" placeholder="College Name">
+
+    <div class="row">
+        <input type="text" placeholder="Passing Year">
+        <input type="text" placeholder="Percentage">
+    </div>
+
+    <h3>Graduation</h3>
+    <input type="text" placeholder="College Name">
+    <input type="text" placeholder="Degree">
+
+    <div class="row">
+        <input type="text" placeholder="Passing Year">
+        <input type="text" placeholder="CGPA / Percentage">
+    </div>
+
+    <div class="buttons">
+        <label for="step2" class="btn prev">Previous</label>
+        <label for="step4" class="btn">Next</label>
+    </div>
+</section>
+
+
+    <section class="form step-4">
+    <h2>Course Details</h2>
+    <p>Select your desired course</p>
+
+    <select>
+        <option value="">Select Course</option>
+        <option>BCA</option>
+        <option>BBA</option>
+        <option>MCA</option>
+        <option>MBA</option>
+    </select>
+
+    <select>
+        <option value="">Course Duration</option>
+        <option>6 Month</option>
+        <option>1 Year</option>
+        <option>2 Year</option>
+        <option>3 Year</option>
+        
+    </select>
+
+    <div class="buttons">
+        <label for="step3" class="btn prev">Previous</label>
+        <label for="step5" class="btn">Next</label>
+    </div>
+</section>
+
+   <section class="form step-5">
+    <h2>Preview Your Details</h2>
+    <p>Review the information before submitting</p>
+
+    <div class="preview-box">Personal Information</div>
+    <div class="preview-box">Guardian Details</div>
+    <div class="preview-box">Address Information</div>
+    <div class="preview-box">Education Background</div>
+    <div class="preview-box">Course Details</div>
+
+    <div class="buttons">
+        <label for="step4" class="btn prev">Previous</label>
+        <button class="btn">Submit</button>
+    </div>
+</section>
+
+  </div>
+
+
+</body>
+</html>
