@@ -1,0 +1,111 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Verdana;
+}
+
+.login-box {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-family: Verdana;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.login-box button {
+    width: 95%;
+    padding: 8px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-box p {
+    margin-top: 15px;
+}
+
+.forgot {
+    display: block;
+    margin-top: 4px;
+}
+
+.login-box select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 8px;
+    background: #28a745;
+    color: white;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+
+}
+
+
+.navbar {
+    background-color: #0d6efd;
+    padding: 8px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 25px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.footer {
+    background-color: #0d6efd;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.footer p {
+    margin: 3px 0;
+}

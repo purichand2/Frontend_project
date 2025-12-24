@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f2f6f9, #e8eef5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 800px;
+}
+
+/* Step Indicator */
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: #e9edf3;
+    color: #555;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 6px;
+}
+
+.step:last-child {
+    margin-right: 0;
+}
+
+.step.active {
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Card */
+.form-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 20px 0 10px;
+}
+
+/* Inputs */
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dcdfe4;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.next {
+    background: #2563eb;
+    color: #fff;
+}
+
+.prev {
+    background: #e5e7eb;
+}
